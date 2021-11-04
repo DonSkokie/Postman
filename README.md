@@ -9,3 +9,9 @@ AWS credentials will be needed on some requests and pre-requests. (Access Key, S
 Evironment variables will all be lowercase and comma seperated.
 Globals variables will all be uppercase and comma seperated. 
 Most script variables will be comma seperated for ease of reading. 
+
+
+# Notes / Sources / Thank You:
+
+* AWS Signing to get Pre-Request to work.
+* * https://virtualbrakeman.wordpress.com/2017/02/13/aws-rest-api-authentication-using-node-js/
