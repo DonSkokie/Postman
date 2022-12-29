@@ -1,7 +1,7 @@
 var uuid = require('uuid');
 var cognito_username = uuid.v4();
 var environment = pm.globals.get("ENVIRONMENT").toLowerCase();
-var email = "lovevery.qa.automation+" + environment + "-" + cognito_username + "@gmail.com";
+var email = "test_user" + "@gmail.com";
 
 pm.environment.set("cognito_username", cognito_username);
 pm.environment.set("cognito_email", email);
